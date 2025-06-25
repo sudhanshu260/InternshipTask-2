@@ -10,7 +10,7 @@ create database student;
     grade varchar(2) default 'na'
     );
     
-    insert into students values(1,'Sudhanshu',21,'A');
+ insert into students values(1,'Sudhanshu',21,'A');
     insert into students values(2,'Rakesh',22,'A');
     insert into students values(3,'Kumar',19,'B');
     insert into students values(4,'Sooraj',21,'B');
@@ -47,21 +47,19 @@ select * from students;
 
 We defined a table with id, name, age, and grade.
 
-    id is a primary key.
-
-    name is NOT NULL.
-
-    grade has a default value 'NA'.
+id is a primary key.
+name is NOT NULL.
+grade has a default value 'NA'.
 
 2. Inserted Data
 
 We added multiple types of data:
 
-    Full row: All columns filled.
+ Full row: All columns filled.
 
-    Partial row: Some columns left NULL or set to default.
+ Partial row: Some columns left NULL or set to default.
 
-    Specific columns: Inserted data only into selected columns.
+Specific columns: Inserted data only into selected columns.
 
 3. Used SELECT to Create New Table
 
